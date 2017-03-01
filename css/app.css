@@ -1,0 +1,28 @@
+.appBody {
+	height: 100vh;
+	width: 100vw;
+	background-color: #FF1313;
+}
+
+.datecounter {
+	font-size: 24pt;
+	color: white;
+}
+
+#outDivBar {
+	padding-right: 10px; 
+	padding-left: 10px;
+}
+
+#inDivBar {
+	min-width: 3%;
+}
+
+#labelBar {
+	position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

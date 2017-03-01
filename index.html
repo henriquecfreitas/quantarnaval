@@ -19,8 +19,27 @@
   <script src="js/app.js"></script>
 </head>
 <body>
-  <div>
-    Great times are coming. App is coming...
+  <div id="blockScreen" style="background: gray; height: 100vh">
+    <span class="label primary"><p>Great times are coming. App is coming...</p></span>    
   </div>
+
+  <div id="appBody" class="appBody" style="display: none;">
+    <span id="dayscounter" class="label primary datecounter"><p>345 DIAS</p></span>
+    <span id="hourscounter" class="label primary datecounter"><p>13 HORAS</p></span>
+    <span id="minutescounter" class="label primary datecounter"><p>9 MINUTOS</p></span>
+    <span id="secondscounter" class="label primary datecounter"><p>28 SEGUNDOS</p></span>
+    
+    <div id="outDivBar">
+      <div class="progress">
+        <div id="inDivBar" class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+        </div>
+        <div id="labelBar">
+          Carnaval 2018
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">appController();</script>
 </body>
 </html>
