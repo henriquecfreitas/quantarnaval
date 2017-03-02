@@ -38,10 +38,11 @@ var appController = function(){
 
 		$("#inDivBar").attr("aria-valuenow", percent);
 		$("#inDivBar").css("width", percent+'%');
+		$("#labelBar").text(percent.toFixed(5)+'%');
 		
 		setInterval(function(){
 			doStuff();
-		}, 1000);
+		}, 900);
 	};
 
 	doStuff();
