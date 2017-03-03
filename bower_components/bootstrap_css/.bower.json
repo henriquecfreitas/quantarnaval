@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap.min",
+  "_cacheHeaders": {
+    "ETag": "W/\"ec3bb52a00e176a7181d454dffaea219\"",
+    "Last-Modified": "Mon, 25 Jul 2016 16:08:01 GMT",
+    "Content-Type": "text/css"
+  },
+  "_release": "e-tag:W/\"ec3bb52",
+  "main": "index.css",
+  "_source": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+  "_target": "*",
+  "_originalSource": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+}

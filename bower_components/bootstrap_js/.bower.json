@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap.min",
+  "_cacheHeaders": {
+    "ETag": "W/\"5869c96cc8f19086aee625d670d741f9\"",
+    "Last-Modified": "Mon, 25 Jul 2016 16:08:02 GMT",
+    "Content-Type": "application/javascript"
+  },
+  "_release": "e-tag:W/\"5869c96",
+  "main": "index.js",
+  "_source": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+  "_target": "*",
+  "_originalSource": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+}

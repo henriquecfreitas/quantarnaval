@@ -1,0 +1,11 @@
+{
+  "name": "moment",
+  "_cacheHeaders": {
+    "Last-Modified": "Mon, 20 Feb 2017 19:14:57 GMT",
+    "Content-Type": "application/javascript; charset=utf-8"
+  },
+  "main": "index.js",
+  "_source": "https://momentjs.com/downloads/moment.min.js",
+  "_target": "*",
+  "_originalSource": "https://momentjs.com/downloads/moment.min.js"
+}
