@@ -1,13 +1,12 @@
 var appController = function(){	
-	var dias = 345;
-	var horas = 13;
-	var minutos = 9;
-	var segundos = 28;
-
-	var percent = 1;
+	var dias;
+	var horas;
+	var minutos;
+	var segundos;
+	var percent;
 
 	var getDuration = function(){
-		var carnaval = moment('10/02/2018', 'DD/MM/YYYY').unix();
+		var carnaval = moment('02/03/2019', 'DD/MM/YYYY').unix();
 		var current  = moment().unix();
 
 		var diff = carnaval - current;
@@ -22,7 +21,7 @@ var appController = function(){
 		minutos = Math.floor(duration.asMinutes() % 60);
 		segundos = Math.floor(duration.asSeconds() % 60);
 
-		var passedTime = moment().unix() - moment('01/03/2017', 'DD/MM/YYYY').unix();
+		var passedTime = moment().unix() - moment('14/02/2018', 'DD/MM/YYYY').unix();
 		percent = (passedTime/29890800) * 100;
 	};
 
